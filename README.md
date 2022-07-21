@@ -1,2 +1,2 @@
-# dio-desafio-github-primeiro-reposit-rio
+# dio-desafio-github-primeirorepositorio
 Desafio de Projeto sobre Git/GitHub do Bootcamp Santander Code Girls
