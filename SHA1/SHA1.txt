@@ -1,0 +1,19 @@
+# Tópicos fundamentais para entender o funcionamento do Git
+# SHA1
+
+- SHA1 = SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA). 
+O SHA1 é um algoritmo de encriptação e essa encriptação gera um conjunto de characteres indentificador de 40 dígitos.
+
+Exemplo de SHA1:
+
+* Preencha e salve um bloco de notas em sua área de trabalho com o nome texto
+
+* Clique com o botão direito na área de trabalho e selecione Git Bash Here
+
+* O Git Bash será aberto
+
+* Digite openssl sha1 texto.txt e clique enter
+
+* Foi gerado o conjunto de 40 caracteres
+
+
