@@ -1,0 +1,9 @@
+# Tópicos fundamentais para entender o funcionamento do Git
+# Objetos internos do Git
+
+- BLOBS = Os arquivos do Git não são armazenados de acordo com seus nomes de arquivos, e sim pelo hash de seus dados em um arquivo chamado de objeto blob
+Ou seja, o nome do arquivo é irrelevante, somente os dados internos são utilizados para construir o objeto blob.
+
+- TREES = Os arquivos de um objeto tree consiste em um tipo de arquivo, um nome de arquivo e um hash (o hash é o objeto blob).
+
+- COMMITS = Seu conteúdo depende da mensagem de commit e da data e hora em que foi criado. 
