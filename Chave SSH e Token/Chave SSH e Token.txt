@@ -1,0 +1,67 @@
+# Chave SSH e Token
+
+No dia 12 de agosto de 2021, a senha da conta do GitHub passou a não ser mais aceita para autenticar operações no Git.
+
+Essa mudança se deve à motivos de segurança.
+
+A partir disso, deve ser utilizado um token de acesso pessoal ou uma chave SSH.
+
+- Chave SSH = Processo de Geração no Windows:
+
+* Faça o login no seu GitHub;
+
+* Acesse Settings em seu perfil;
+
+* Selecione SSH and GPG keys;
+
+* Clique em New SSH Key;
+
+* Abra o Git Bash;
+
+* Digite ssh-keygen -t edxxx (tipo de criptografia da chave) -c xxxx@gmail.com (o email que você usa);
+
+* Insira uma senha;
+
+* Abra a pasta onde a chave foi gerada usando cd + o local;
+
+* Digite ls para listar os comandos;
+
+* A tela mostrará a chave pública e a chave privada;
+
+* Use o comando cat + a chave pública para visualizar o conteúdo da chave;
+
+* copie a chave pública;
+
+* Volte ao GitHub e nomeie a sua chave;
+
+* Coloque a chave pública em key e clique em Add SSH key;
+
+* Confirme sua senha;
+
+* A chave SSH foi gerada.
+
+* Volte para o Git Bash e digite ls;
+
+* Digite eval $(ssh-agent -s) para gerar o agente;
+
+* Digite ssh-add e digite o caminho que a chave privada está;
+
+* Digite a senha que foi colocada para a chave;
+
+* A chave foi validada
+
+- Chave Token = Processo de Geração no Windows:
+
+* Faça o login no seu GitHub;
+
+* Acesse Settings em seu perfil;
+
+* Selecione Developer Settings + Personal access tokens + generate new token;
+
+*  Confirme sua senha, dê um nome para o token e marque as permissões que deseja conceder ao token;
+
+* Clique em Generate Token;
+
+* O Token foi gerado;
+
+
