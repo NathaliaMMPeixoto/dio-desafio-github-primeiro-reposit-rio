@@ -1,0 +1,5 @@
+# Tópicos fundamentais para entender o funcionamento do Git
+
+# Sistema distribuido seguro
+
+O Git é um sistema distribuido seguro pois em vez de ter apenas um único local para o histórico completo da versão do software, o que é comum em sistemas de controle de versão, no Git, a cópia de trabalho de  todo desenvolvedor do código também é um repositporio que pode conter o histórico completo de todas as alterações.
