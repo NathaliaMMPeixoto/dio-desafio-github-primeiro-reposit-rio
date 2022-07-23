@@ -1,0 +1,15 @@
+#Instalação do Git no Windows
+
+O download pode ser realizado através do seguinte link: https://git-scm.com/downloads
+
+A instalação deve ser realizada seguinte os seguintes passos:
+
+- Executar o instalador e clicar em next
+
+- Escolher onde vai instalar e clicar em next
+
+- Verificar se os componentes Git Bash Here e Git GUI Here estão selecionados para serem instalados e clicar em next
+
+- Seguir selecionando next até a página do editor padrão, onde deverá deixar marcado o editor VIM. Após esse passo, clicar em next
+
+- Marque a opção Let Git decide e clique em next sucessivamente até a prosseguir com a instalação do Git
