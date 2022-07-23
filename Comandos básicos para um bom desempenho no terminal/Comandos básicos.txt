@@ -1,0 +1,13 @@
+# Comandos básicos para um bom desempenho no terminal
+
+Windows
+
+- cd = Esse comando permite a navegação entre as pastas
+
+- dir = Esse comando traz uma lista de diretórios contidos na pasta onde o usuário está situado
+
+- mkdir = Esse comando cria uma pasta
+
+- del = Esse comando deleta arquivos
+
+- rmdir = Esse comando deleta repositórios
